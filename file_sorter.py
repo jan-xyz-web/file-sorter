@@ -14,6 +14,13 @@ FILE_CATEGORIES = {
     "Archives": [".zip", ".rar", ".7z", ".tar", ".gz", ".bz2"],
     "Code": [".py", ".js", ".html", ".css", ".java", ".cpp", ".c", ".h", ".json", ".xml", ".sql", ".verse"],
     "Executables": [".exe", ".dmg", ".app", ".deb", ".rpm"],
+    "Photoshop": [".psd", ".psb", ".xcf"],
+    "Illustrator": [".ai", ".eps", ".svg"],
+    "InDesign": [".indd", ".idml", ".indt"],
+    "Acrobat": [".pdf", ".acrobat", ".acrobatpro", ".acrobatreader", ".acrobatreaderdc", ".acrobatreaderdcx", ".acrobatreaderdcx2", ".acrobatreaderdcx3", ".acrobatreaderdcx4", ".acrobatreaderdcx5", ".acrobatreaderdcx6", ".acrobatreaderdcx7", ".acrobatreaderdcx8", ".acrobatreaderdcx9", ".acrobatreaderdcx10"],
+    "Excel": [".xls", ".xlsx", ".xlsm", ".xlsb", ".xls2003", ".xls2003xml", ".xls2003xml2", ".xls2003xml3", ".xls2003xml4", ".xls2003xml5", ".xls2003xml6", ".xls2003xml7", ".xls2003xml8", ".xls2003xml9", ".xls2003xml10"],
+    "PowerPoint": [".ppt", ".pptx", ".pptm", ".pptx2003", ".pptx2003xml", ".pptx2003xml2", ".pptx2003xml3", ".pptx2003xml4", ".pptx2003xml5", ".pptx2003xml6", ".pptx2003xml7", ".pptx2003xml8", ".pptx2003xml9", ".pptx2003xml10"],
+    "Word": [".doc", ".docx", ".docm", ".docx2003", ".docx2003xml", ".docx2003xml2", ".docx2003xml3", ".docx2003xml4", ".docx2003xml5", ".docx2003xml6", ".docx2003xml7", ".docx2003xml8", ".docx2003xml9", ".docx2003xml10"],
 }
 
 def get_file_category(filename):
